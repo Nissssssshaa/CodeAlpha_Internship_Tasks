@@ -6,18 +6,17 @@ This repository contains the completed tasks for the CodeAlpha Data Analytics In
 
 ## Project Details
 
-### 1. Task 1: Web Scraping - Yahoo Finance Historical Data
 
-**Objective:** "Use Python libraries (BeautifulSoup, Scrapy) or automated tools (Octoparse, ParseHub) to extract data from websites."
+### 1. Task 1: Web Scraping - Quotes to Scrape
 
 **Description:**
-This project focuses on extracting historical stock data from Yahoo Finance using Python's `requests` and `BeautifulSoup` libraries. It demonstrates the ability to programmatically access web content, parse HTML, and structure the extracted information into a clean dataset.
+This project focuses on extracting quotes and author data from `http://quotes.toscrape.com/` using Python's `requests` and `BeautifulSoup` libraries. It demonstrates the ability to programmatically access web content, parse HTML, and structure the extracted information into a clean dataset.
 
 **Key Features:**
-* **Data Extraction:** Fetches historical price and volume data for a specified stock ticker (e.g., AAPL).
-* **HTML Parsing:** Utilizes BeautifulSoup to navigate and extract data from complex web page structures.
-* **Data Structuring:** Organizes the scraped data into a Pandas DataFrame for further analysis.
-* **Data Persistence:** Saves the extracted data to a CSV file.
+* **Data Extraction:** Fetches quotes and author names from the provided URL.
+* **HTML Parsing:** Utilizes BeautifulSoup to navigate and extract data from the page's HTML structure.
+* **Data Structuring:** Organizes the scraped data into a Pandas DataFrame.
+* **Data Persistence:** Saves the extracted data to a CSV file (if implemented in your code).
 
 **Skills Demonstrated:** Web Scraping, HTTP Requests, HTML Parsing, Data Collection, Data Structuring.
 
